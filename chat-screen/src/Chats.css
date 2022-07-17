@@ -1,11 +1,13 @@
 .chats{
     margin-top: 20px;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .chat__container{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding: 10px 24px;
 }
 
@@ -13,7 +15,12 @@
     background-color: whitesmoke;
     border-radius: 20px;
 }
-.chat__container > img{
+
+.chat__containerLeft{
+    display: flex;
+    align-items: center;
+}
+.chat__containerLeft > img{
     width: 60px;
     border-radius: 50%;
     object-fit: contain;
