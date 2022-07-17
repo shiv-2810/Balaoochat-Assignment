@@ -1,0 +1,17 @@
+.addUser{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(64, 64, 228);
+    position: fixed;
+    bottom: 6rem;
+    border-radius: 50%;
+    margin-left: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addUser:hover{
+    transform: scale(1.1);
+}

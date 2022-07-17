@@ -1,0 +1,10 @@
+.chatSection{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 70px;
+    background-color: #fff;
+    border-radius: 30px;
+    overflow: scroll;
+    margin-bottom: 80px;
+}

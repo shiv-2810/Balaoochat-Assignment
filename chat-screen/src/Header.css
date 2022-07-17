@@ -1,0 +1,20 @@
+.header{
+    position: sticky;
+    top: 10px;
+    height: 96px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    padding-left:24px;
+}
+
+.header__image{
+    margin-bottom:1em;
+} 
+.header__name{
+    color:#ffff;
+    margin-left:20px;
+    margin-bottom: 1em;
+    font-size: 18px;
+
+}
